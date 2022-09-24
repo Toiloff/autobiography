@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+body {
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  background-color: #212529;
+  height: 50px;
+}
+
+.navbar_list {
+  list-style: none;
+  display: flex;
+}
+
+.navbar_list li {
+  padding: 15px 20px;
+}
+
+.navbar_list li a {
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.navbar_list li a:hover {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.navbar_list li a:active {
+  color: rgba(255, 255, 255, 1);
+}
+
+.autobiography {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.autobiography img {
+  border: 0;
+  border-radius: 100%;
+  box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.12);
+}
+
+.autobiography h1 {
+  font-size: 2rem;
+  color: #212529;
+  margin: 20px 0px 10px 0px;
+}
+
+.autobiography p {
+  text-align: justify;
+  text-indent: 30px;
+  padding: 0px 10px
+}
+
+.container_800 {
+  max-width: 800px;
+}
+
+footer {
+  flex: 1 0 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 25px;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+}
